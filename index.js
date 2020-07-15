@@ -16,8 +16,8 @@ function nowServing(katzDeliLine){
 function currentLine(array){
   var line = "The line is currently:"
   if (array.length > 0){
-    for (let i = array.length ; i > 0 ; i--){
-      line = line +`${array.length - (i + 1)}`
+    for (let i = 0 ; i < array.length ; i++){
+      line = line.concat(` ${i + 1}. ${array[i]}`)
     }
   return line
   }
