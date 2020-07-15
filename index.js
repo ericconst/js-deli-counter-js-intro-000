@@ -10,7 +10,7 @@ function nowServing(katzDeliLine){
   else {
     return (`Currently serving ${katzDeliLine.shift()}.`)
 
-    
+
   }
   let i = 0;
   while (i < katzDeliLine.length){
@@ -20,7 +20,7 @@ function nowServing(katzDeliLine){
 
 
 
-  
+
   if (katzDeliLine.length > 0){
     return `Currently serving ${katzDeliLine[0]}.`
     katzDeliLine.shift()
