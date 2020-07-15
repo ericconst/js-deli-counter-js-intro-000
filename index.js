@@ -11,25 +11,6 @@ function nowServing(katzDeliLine){
     return (`Currently serving ${katzDeliLine.shift()}.`)
 
 
-  }
-  let i = 0;
-  while (i < katzDeliLine.length){
-    i++
-  }
-
-
-
-
-
-  if (katzDeliLine.length > 0){
-    return `Currently serving ${katzDeliLine[0]}.`
-    katzDeliLine.shift()
-  }
-  else {
-    return "There is nodoby waiting to be served!"
-  }
-}
-
 function currentLine(array){
   var line = "The line is currently:"
   if (array.length > 0){
