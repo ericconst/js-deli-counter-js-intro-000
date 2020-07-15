@@ -4,6 +4,10 @@ function takeANumber(katzDeliLine , name){
 }
 
 function nowServing(katzDeliLine){
+  let i = 0;
+  while (i < katzDeli.length) {
+    i++;
+  }
   if (katzDeliLine.length === 0){
     return "There is nodoby waiting to be served!";
   }
