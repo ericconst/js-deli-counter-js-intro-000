@@ -20,7 +20,7 @@ function currentLine(array){
   }
   else {
     for (let i = 0 ; i < array.length ; i++){
-      line.push(`${i+1}. ${array[i]}`)
+      line.push(` ${i+1}. ${array[i]}`)
     }
     return 'The line is currently:' + line
   }
