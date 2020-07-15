@@ -19,7 +19,8 @@ function currentLine(array){
     for (let i = 0 ; i < array.length ; i++){
       line = line.concat(` ${i + 1}. ${array[i]},`)
     }
-  return line - ","
+    line = line - ","
+  return line
   }
   else{
     return "The line is currently empty."
