@@ -19,5 +19,9 @@ function currentLine(array){
     for (let i = array.length ; i > 0 ; i--){
       line = line +`${array.length - (i + 1)}`
     }
+  return line
   }
-} 
+  else{
+    return "The line is currently empty"
+  }
+}
