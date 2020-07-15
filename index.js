@@ -17,7 +17,7 @@ function currentLine(array){
   var line = "The line is currently:"
   if (array.length > 0){
     for (let i = 0 ; i < array.length ; i++){
-      line = line.concat(` ${i + 1}. ${array[i]}`)
+      line = line.concat(` ${i + 1}. ${array[i]},`)
     }
   return line
   }
