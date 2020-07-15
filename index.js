@@ -9,6 +9,6 @@ function nowServing(katzDeliLine){
     katzDeliLine.shift(`${katzDeliLine[0]}`)
   }
   else {
-    console.log(There is nodoby waiting to be served!)
+    console.log('There is nodoby waiting to be served!')
   }
 }
