@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine , name){
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
     return `Currently serving ${katzDeliLine[0]}.`
-    return katzDeliLine.shift()
+    katzDeliLine.shift()
   }
   else {
     return "There is nodoby waiting to be served!"
@@ -19,7 +19,6 @@ function currentLine(array){
     for (let i = 0 ; i < array.length ; i++){
       line = line.concat(` ${i + 1}. ${array[i]},`)
     }
-    line = line - ","
   return line
   }
   else{
